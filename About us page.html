@@ -1,25 +1,149 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us Page</title>
+  <link rel="stylesheet" type="text/CSS" href="Aboutstyle.css">
 </head>
 <body>
-    <div class="about-section">
-        <div class="inner-container">
-            <h1>About Us</h1>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
-            </p>
-            <div class="skills">
-                <span>Privacy Policy</span>
-                <span>Terms to Use</span>
-                <span>Share the App</span>
-                <span>Rate the App</span>
-                <span>Join Us on Twitter</span>
-            </div>
-        </div>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Stock Portfolio</span>
     </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Market</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">Add Portfolio</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Mutual Funds</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">Stock</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="links_name">Watch List</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Premium</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name">Help & Feedback</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">About Us</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="images/profile.jpg" alt="">
+        <span class="admin_name">Sawan Raina</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+  <section class="contact">
+    <div class="content">
+      <h2>About Us</h2>
+      <p>This is a Stock Portfolio Managment System designed to help you make a collection of your financial investments like stocks, bonds, commodities, cash</p>
+    </div>
+    <div class="container">
+      <div class="ContactInfo">
+        <div class="box">
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Meet Our Developers</h3>
+            <p>Sawan Raina, Seoni Aranha, Nirmiti Chutke</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Contact Number</h3>
+            <p>022-6785986</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Email Address</h3>
+            <p>contactme123@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="Contact Form">
+        <form>
+          <h2>Send Message</h2>
+          <div class="InputBox">
+            <input type="text" name="" required="required">
+            <span>Full Name</span>
+          </div>
+          <div class="InputBox">
+            <input type="text" name="" required="required">
+            <span>Email Address</span>
+          </div>
+            <div class="InputBox">
+              <textarea required="required"></textarea>
+              <span>Type your query here...</span>
+            </div>
+            <div class="InputBox">
+              <input type="Submit" name="" value="Send">
+            </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  
 </body>
 </html>
